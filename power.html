@@ -1,0 +1,189 @@
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, 
+	initial-scale= 1.0">
+	<meta name="description" content="Free online power converter - converts between units of power, including watt [W], exawatt [EW], petawatt [PW], terawatt [TW], etc. Also, explore many other unit converters.">
+	<meta name="keywords" content="Power Converter, Power Conversion, Convert Power, Online Power Converter, Convert hp to kw, Horsepower (metric) to Kilowatt Conversion, Horsepower (metric) to Kilowatt, Convert hp to watts, Horsepower (metric) to Watt Conversion, Horsepower (metric) to Watt, Convert BTU to Ton, Btu (IT)/hour to Ton (refrigeration) Conversion, Btu (IT)/hour to Ton (refrigeration), Convert kw to hp, Kilowatt to Horsepower (metric) Conversion, Kilowatt to Horsepower (metric), Convert watts to hp, Watt to Horsepower (metric) Conversion, Watt to Horsepower (metric), Convert Ton to BTU, Ton (refrigeration) to Btu (IT)/hour Conversion, Ton (refrigeration) to Btu (IT)/hour">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="alertify/css/alertify.css">
+</head>
+<body>
+ <header>
+           <a href="index.html"> <h1 id="title"><span id="converters">Free</span>Unit<span id="converters">Converters</span>.com</h1></a>
+</header>
+
+<h3>Unit converter express version</h3>
+
+<div class="value">
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="bits and bytes.html"><li>Bits & Byets</li></a>
+		<a href="density.html"><li>Density</li></a>
+		<a href="energy.html"><li>Energy</li></a>
+		<a href="electric current.html"><li>Electric current</li></a>
+		<a href="force.html"><li>Force</li></a>
+		<a href="power.html"><li >Power</li></a>
+		<a href="pressure.html"><li>Pressure</li></a>
+		<a href="speed.html"><li>Speed</li></a>
+		
+
+	</ul>
+</div>
+
+
+
+<div class="inputs">
+	<h2 class="length">Power</h2>
+<label  for="input">
+	<b>from:</b>
+	<input type="number" placeholder="input" name="input" id="input" oninput="convert(8)"  onkeypress='validate(event)' >
+	
+	</label>
+	<label for="iteams">
+		<select name="none" id="inputType" onchange="convert(8)">
+	  <option>watts</option>
+      <option>petawatts</option>
+      <option>megawatts</option>
+      <option>gigawatts</option>
+      <option>terawatts</option>
+      <option>kilowatts</option>
+      <option>horsepowers (electric)</option>
+      <option>horsepowers (international)</option>
+      <option>horsepowers (water)</option>
+      <option>horsepowers (metric)</option>
+      <option>Btu/hour</option>
+      <option>Btu/minute</option>
+      <option>Btu/second</option>
+      <option>kilocalories(th)/hour</option>
+      <option>kilocalories(th)/minute</option>
+      <option>kilogram-force meters/hour</option>
+      <option>kilogram-force meters/minute</option>
+      <option>calories(th)/hour</option>
+      <option>calories(th)/minute</option>
+      <option>calories(th)/second</option>
+      <option>foot pounds-force/minute</option>
+      <option>foot pounds-force/second</option>     
+      <option>joules/hour</option>
+      <option>joules/minute</option>
+      <option>joules/second</option>
+      <option>ton of refrigeration</option>           
+    
+
+
+		</select>
+	</label>
+	<br>
+<label for="result">
+	<b class="to">to: </b>
+
+	<input type="number" placeholder="result" name="result" id="result" >
+	
+
+</label>	
+<label for="iteams">
+		<select name="none" id="resultType" onchange="convert(8)">
+	  <option>watts</option>
+      <option>petawatts</option>
+      <option>megawatts</option>
+      <option>gigawatts</option>
+      <option>terawatts</option>
+      <option>kilowatts</option>
+      <option>horsepowers (electric)</option>
+      <option>horsepowers (international)</option>
+      <option>horsepowers (water)</option>
+      <option>horsepowers (metric)</option>
+      <option>Btu/hour</option>
+      <option>Btu/minute</option>
+      <option>Btu/second</option>
+      <option>kilocalories(th)/hour</option>
+      <option>kilocalories(th)/minute</option>
+      <option>kilogram-force meters/hour</option>
+      <option>kilogram-force meters/minute</option>
+      <option>calories(th)/hour</option>
+      <option>calories(th)/minute</option>
+      <option>calories(th)/second</option>
+      <option>foot pounds-force/minute</option>
+      <option>foot pounds-force/second</option>     
+      <option>joules/hour</option>
+      <option>joules/minute</option>
+      <option>joules/second</option>
+      <option>ton of refrigeration</option>
+    
+
+
+		</select>
+	</label>
+</div>
+
+
+
+
+
+<div class= "col-3 right">
+
+
+	<div class="main-convertors">
+	<h4 class="h1">Main converters</h4>
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+
+
+	</ul>
+</div>
+</div>
+
+
+<div class="col-9">
+<div class="aside1">
+	<h4>Power</h4>
+	<p><b>Engine power or horsepower </b>  is the maximum power that an engine can put out. It can be expressed in kilowatts or horsepower. The power output depends on the size and design of the engine, but also on the speed at which it is running and the load or torque. Maximum power is achieved at relatively high speeds and at high load. Electric power is the rate, per unit time, at which electrical energy is transferred by an electric circuit. The SI unit of power is the watt, one joule per second. Electric power is usually produced by electric generators, but can also be supplied by sources such as electric batteries. It is usually supplied to businesses and homes (as domestic mains electricity) by the electric power industry through an electric power grid. Electric power can be delivered over long distances by transmission lines and used for applications such as motion, light or heat with high efficiency. <a href="https://en.m.wikipedia.org/wiki/Electric_power">Wikipedia</a></p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+	
+
+<div class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<small>&copy; FreeUnitConverters.com 2020</small>
+</footer>
+
+
+
+<script src="alertify/alertify.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

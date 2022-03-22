@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	
+	<meta name="viewport" content="width=device-width, 
+	initial-scale= 1.0">
+	<meta name="description" content="Free online length converter - converts between units of length, including meter [m], kilometer [km], decimeter [dm], centimeter [cm], etc. Also, explore many other unit converters or learn more about length unit conversions.">
+	<meta name="keywords" content="Length Converter, Length Conversion, Convert Length, Online Length Converter, convert feet to meters, convert km to miles, convert inches to feet, Length, Convert inchesto cm,Convert cm to inches, Centimeter to Inch Conversion, Centimeter to Inch,Convert mm to inches, Millimeter to Inch Conversion, Millimeter to Inch,Convert meters to feet, Meter to Foot Conversion, Meter to Foot, Convert km to miles, Kilometer to Mile Conversion, Kilometer to Mile, Convert cm to feet, Centimeter to Foot Conversion, Centimeter to Foot, Convert inches to feet, Inch to Foot Conversion, Inch to Foot, Convert meters to yards, Meter to Yard Conversion, Meter to Yard, Convert mm to cm, Millimeter to Centimeter Conversion, Millimeter to Centimeter, Convert cm to m, Centimeter to Meter Conversion, Centimeter to Meter, Convert cm to km, Centimeter to Kilometer Conversion, Centimeter to Kilometer, Convert mm to feet, Millimeter to Foot Conversion, Millimeter to Foot, Convert meters to miles, Meter to Mile Conversion, Meter to Mile, Convert feet to miles, Foot to Mile Conversion, Foot to Mile, Convert yards to feet, Yard to Foot Conversion, Yard to Foot, Convert inches to meters, Inch to Meter Conversion, Inch to Meter, Convert km to m, Kilometer to Meter Conversion, Kilometer to Meter, Convert yards to miles, Yard to Mile Conversion, Yard to Mile">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="alertify/css/alertify.css">
+</head>
+<body>
+	<header >
+		<a href="index.html"> <h1 id="title"><span id="converters">Free</span>Unit<span id="converters">Converters</span>.com</h1></a>
+</header>
+<h3>Unit converter express version</h3>
+
+<div class="value">
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="bits and bytes.html"><li>Bits & Byets</li></a>
+		<a href="density.html"><li>Density</li></a>
+		<a href="energy.html"><li>Energy</li></a>
+		<a href="electric current.html"><li>Electric current</li></a>
+		<a href="force.html"><li>Force</li></a>
+		<a href="power.html"><li >Power</li></a>
+		<a href="pressure.html"><li>Pressure</li></a>
+		<a href="speed.html"><li>Speed</li></a>
+		
+
+	</ul>
+</div>
+
+
+
+<div class="inputs">
+	<h2 class="length">Lenght</h2>
+<label  for="input">
+	<b>from:</b>
+	<input type="number" placeholder="input" name="input" id="input" oninput="convert(6)"  onkeypress='validate(event)' >
+	
+	</label>
+	<label for="iteams">
+		<select name="none" id="inputType" onchange="convert(6)">
+			<option>meter [m]</option>
+			<option>kilometer [km]</option>
+			<option>centimeter [cm]</option>
+			<option>decimeter [dm]</option>
+			<option>millimeter [mm]</option>
+			<option>micrometer []</option>
+			<option>nanometer [nm]</option>
+			<option>mile [mi, mi(int)]</option>
+			<option>yard [yd]</option>
+			<option>foot [ft]</option>
+			<option>inch [in]</option>
+			<option>light year [ly]</option>
+
+
+		</select>
+	</label>
+	<br>
+<label for="result">
+	<b class="to">to: </b>
+
+	<input type="number" placeholder="result" name="result" id="result" >
+	
+
+</label>	
+<label for="iteams">
+		<select name="none" id="resultType" onchange="convert(6)">
+			<option>meter [m]</option>
+			<option>kilometer [km]</option>
+			<option>centimeter [cm]</option>
+			<option>decimeter [dm]</option>
+			<option>millimeter [mm]</option>
+			<option>micrometer []</option>
+			<option>nanometer [nm]</option>
+			<option>mile [mi, mi(int)]</option>
+			<option>yard [yd]</option>
+			<option>foot [ft]</option>
+			<option>inch [in]</option>
+			<option>light year [ly]</option>
+
+
+		</select>
+	</label>
+</div>
+
+
+
+
+
+<div class= "col-3 right">
+
+
+	<div class="main-convertors">
+	<h4 class="h1">Main converters</h4>
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+
+
+	</ul>
+</div>
+</div>
+
+<div class="col-9">
+<div class="aside1">
+	<h4>Length</h4>
+	<p>In this unit you can convert free, easily and online the Lenght measurements like meter, kilometer, centimeter and etc. If you want to convert other measurements, pleasee visit to another units.</p>
+	<p><b>Length</b> is a measure of distance. In the International System of Quantities, length is a quantity with dimension distance. In most systems of measurement a base unit for length is chosen, from which all other units are derived. In the International System of Units (SI) system the base unit for length is the metre. Length is commonly understood to mean the most extended dimension of a fixed object. However, this is not always the case and may depend on the position the object is in. Various terms for the length of a fixed object are used, and these include height, which is vertical length or vertical extent, and width, breadth or depth. Height is used when there is a base from which vertical measurements can be taken. Width or breadth usually refer to a shorter dimension when length is the longest one. Depth is used for the third dimension of a three dimensional object. Length is the measure of one spatial dimension, whereas area is a measure of two dimensions (length squared) and volume is a measure of three dimensions (length cubed). <a href="https://en.m.wikipedia.org/wiki/Length">Wikipedia</a></p>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<small>&copy; FreeUnitConverters.com 2020</small>
+</footer>
+
+
+
+<script src="alertify/alertify.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

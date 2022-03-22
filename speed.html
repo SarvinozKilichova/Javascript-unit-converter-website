@@ -1,0 +1,186 @@
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, 
+	initial-scale= 1.0">
+	<meta name="description" content="Free online speed converter - converts between units of speed, including meter/second [m/s], kilometer/hour [km/h], mile/hour [mi/h], break, etc. Also, explore many other unit converters.">
+	<meta name="keywords" content="Speed Converter, Speed Conversion, Convert Speed, Online Speed Converter, Convert mph to kph, Mile/hour to Kilometer/hour Conversion, Mile/hour to Kilometer/hour, Convert meters per second to miles per hour, Meter/second to Mile/hour Conversion, Meter/second to Mile/hour, Convert feet per second to mph, Foot/second to Mile/hour Conversion, Foot/second to Mile/hour, Convert meters per second to kph, Meter/second to Kilometer/hour Conversion, Meter/second to Kilometer/hour">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="alertify/css/alertify.css">
+</head>
+<body>
+ <header>
+           <a href="index.html"> <h1 id="title"><span id="converters">Free</span>Unit<span id="converters">Converters</span>.com</h1></a>
+</header>
+
+<h3>Unit converter express version</h3>
+
+<div class="value">
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="bits and bytes.html"><li>Bits & Byets</li></a>
+		<a href="density.html"><li>Density</li></a>
+		<a href="energy.html"><li>Energy</li></a>
+		<a href="electric current.html"><li>Electric current</li></a>
+		<a href="force.html"><li>Force</li></a>
+		<a href="power.html"><li >Power</li></a>
+		<a href="pressure.html"><li>Pressure</li></a>
+		<a href="speed.html"><li>Speed</li></a>
+		
+
+	</ul>
+</div>
+
+
+
+<div class="inputs">
+	<h2 class="length">Speed</h2>
+<label  for="input">
+	<b>from:</b>
+	<input type="number" placeholder="input" name="input" id="input" oninput="convert(10)"  onkeypress='validate(event)' >
+	
+	</label>
+	<label for="iteams">
+		<select name="none" id="inputType" onchange="convert(10)">
+	  <option>centimeters/minute</option>
+      <option>centimeters/second</option>
+      <option>feet/hour</option>
+      <option>feet/minute</option>
+      <option>feet/second</option>
+      <option>inches/minute</option>
+      <option>inches/second</option>
+      <option>kilometers/hour</option>
+      <option>kilometers/second</option>
+      <option>knots</option>
+      <option>Mach number (ISA/Sea level)</option>
+      <option>meters/hour</option>
+      <option>meters/minute</option>
+      <option>meters/second</option>
+      <option>miles/hour</option>
+      <option>miles/minute</option>
+      <option>miles/second</option>
+      <option>nautical miles/hour</option>
+      <option>Nm/24hr</option>
+      <option>speed of light</option>
+      <option>speed of sound</option>
+      <option>yards/hour</option>
+      <option>yards/minute</option>
+      <option>yards/second</option>    
+    
+
+
+		</select>
+	</label>
+	<br>
+<label for="result">
+	<b class="to">to: </b>
+
+	<input type="number" placeholder="result" name="result" id="result" >
+	
+
+</label>	
+<label for="iteams">
+		<select name="none" id="resultType" onchange="convert(10)">
+	  <option>centimeters/minute</option>
+      <option>centimeters/second</option>
+      <option>feet/hour</option>
+      <option>feet/minute</option>
+      <option>feet/second</option>
+      <option>inches/minute</option>
+      <option>inches/second</option>
+      <option>kilometers/hour</option>
+      <option>kilometers/second</option>
+      <option>knots</option>
+      <option>Mach number (ISA/Sea level)</option>
+      <option>meters/hour</option>
+      <option>meters/minute</option>
+      <option>meters/second</option>
+      <option>miles/hour</option>
+      <option>miles/minute</option>
+      <option>miles/second</option>
+      <option>nautical miles/hour</option>
+      <option>Nm/24hr</option>
+      <option>speed of light</option>
+      <option>speed of sound</option>
+      <option>yards/hour</option>
+      <option>yards/minute</option>
+      <option>yards/second</option>    
+    
+    
+
+
+		</select>
+	</label>
+</div>
+
+
+
+
+
+<div class= "col-3 right">
+
+
+	<div class="main-convertors">
+	<h4 class="h1">Main converters</h4>
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+
+
+	</ul>
+</div>
+</div>
+
+
+
+<div  class="col-9">
+<div class="aside1">
+	<h4>Speed</h4>
+	<p><b> Speed </b> has the dimensions of distance divided by time. The SI unit of speed is the metre per second, but the most common unit of speed in everyday usage is the kilometre per hour or, in the US and the UK, miles per hour. For air and marine travel the knot is commonly used. <br>The fastest possible speed at which energy or information can travel, according to special relativity, is the speed of light in a vacuum c = 299792458 metres per second (approximately 1079000000 km/h or 671000000 mph). Matter cannot quite reach the speed of light, as this would require an infinite amount of energy. In relativity physics, the concept of rapidity replaces the classical idea of speed. <a href="https://en.m.wikipedia.org/wiki/Speed">Wikipedia</a></p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<small>&copy; FreeUnitConverters.com 2020</small>
+</footer>
+
+
+
+<script src="alertify/alertify.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

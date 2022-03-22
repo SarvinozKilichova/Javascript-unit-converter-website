@@ -1,0 +1,186 @@
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, 
+	initial-scale= 1.0">
+	<meta name="description" content="Free online weight and mass converter - converts between units of weight and mass, including kilogram [kg], gram [g], milligram [mg], ton (metric) [t], etc. Also, explore many other unit converters.">
+	<meta name="keywords" content="Weight and Mass Converter, Weight and Mass Conversion, Convert Weight and Mass, Online Weight and Mass Converter, Convert grams to ounces, Gram to Ounce Conversion, Gram to Ounce, Convert pounds to ounces, Pound to Ounce Conversion, Pound to Ounce, Convert grams to pounds, Gram to Pound Conversion, Gram to Pound, Convert g to kg, Gram to Kilogram Conversion, Gram to Kilogram, Convert grams to milligrams, Gram to Milligram Conversion, Gram to Milligram, Convert oz to kg, Ounce to Kilogram Conversion, Ounce to Kilogram">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="alertify/css/alertify.css">
+</head>
+<body>
+ <header>
+           <a href="index.html"> <h1 id="title"><span id="converters">Free</span>Unit<span id="converters">Converters</span>.com</h1></a>
+</header>
+
+<h3>Unit converter express version</h3>
+
+<div class="value">
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="bits and bytes.html"><li>Bits & Byets</li></a>
+		<a href="density.html"><li>Density</li></a>
+		<a href="energy.html"><li>Energy</li></a>
+		<a href="electric current.html"><li>Electric current</li></a>
+		<a href="force.html"><li>Force</li></a>
+		<a href="power.html"><li >Power</li></a>
+		<a href="pressure.html"><li>Pressure</li></a>
+		<a href="speed.html"><li>Speed</li></a>
+		
+
+	</ul>
+</div>
+
+
+
+<div class="inputs">
+	<h2 class="length">Mass</h2>
+<label  for="input">
+	<b>from:</b>
+	<input type="number" placeholder="input" name="input" id="input" oninput="convert(7)"  onkeypress='validate(event)' >
+	
+	</label>
+	<label for="iteams">
+		<select name="none" id="inputType" onchange="convert(7)">
+	<option>grams</option>
+    <option>kilograms</option>
+    <option>kilotonnes</option>
+    <option>megatonnes</option>
+    <option>micrograms</option>
+    <option>milligrams</option>
+    <option>nanograms</option>
+    <option>ounces (US & UK)</option>
+    <option>ounces (troy, precious metals)</option>
+    <option>picograms</option>
+    <option>pounds (US & UK)</option>
+    <option>pounds (troy, precious metals)</option>
+    <option>Solar masses</option>
+    <option>slugs (g-pounds)</option>
+    <option>stones</option>
+    <option>tons (UK or long)</option>
+    <option>tons (US or short)</option>
+    <option>tonnes (metric)</option>
+    <option>carats (metric)</option>
+    <option>cental</option>
+    <option>decagrams</option>
+    <option>Earth masses</option>
+    <option>femtograms</option>
+    <option>grains</option>
+    <option>hectograms</option>
+    <option>hundredweights</option>                   
+    
+
+
+		</select>
+	</label>
+	<br>
+<label for="result">
+	<b class="to">to: </b>
+
+	<input type="number" placeholder="result" name="result" id="result" >
+	
+
+</label>	
+<label for="iteams">
+		<select name="none" id="resultType" onchange="convert(7)">
+	<option>grams</option>
+    <option>kilograms</option>
+    <option>kilotonnes</option>
+    <option>megatonnes</option>
+    <option>micrograms</option>
+    <option>milligrams</option>
+    <option>nanograms</option>
+    <option>ounces (US & UK)</option>
+    <option>ounces (troy, precious metals)</option>
+    <option>picograms</option>
+    <option>pounds (US & UK)</option>
+    <option>pounds (troy, precious metals)</option>
+    <option>Solar masses</option>
+    <option>slugs (g-pounds)</option>
+    <option>stones</option>
+    <option>tons (UK or long)</option>
+    <option>tons (US or short)</option>
+    <option>tonnes (metric)</option>
+    <option>carats (metric)</option>
+    <option>cental</option>
+    <option>decagrams</option>
+    <option>Earth masses</option>
+    <option>femtograms</option>
+    <option>grains</option>
+    <option>hectograms</option>
+    <option>hundredweights</option>          
+    
+
+
+		</select>
+	</label>
+</div>
+
+
+
+
+
+<div class= "col-3 right">
+
+
+	<div class="main-convertors">
+	<h4 class="h1">Main converters</h4>
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+
+
+	</ul>
+</div>
+</div>
+
+
+<div class="col9">
+<div class="aside1">
+	<h4>Mass</h4>
+	<p><b>Mass</b> is both a property of a physical body and a measure of its resistance to acceleration (a change in its state of motion) when a net force is applied.An object's mass also determines the strength of its gravitational attraction to other bodies.The basic SI unit of mass is the kilogram (kg). In physics, mass is not the same as weight, even though mass is often determined by measuring the object's weight using a spring scale, rather than balance scale comparing it directly with known masses. An object on the Moon would weigh less than it does on Earth because of the lower gravity, but it would still have the same mass. This is because weight is a force, while mass is the property that (along with gravity) determines the strength of this force. <a href="https://en.m.wikipedia.org/wiki/Mass">Wikipedia</a></p>
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<small>&copy; FreeUnitConverters.com 2020</small>
+</footer>
+
+
+
+<script src="alertify/alertify.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

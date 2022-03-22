@@ -1,0 +1,220 @@
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, 
+	initial-scale= 1.0">
+      <meta name="description" content="Free online volume converter - converts between units of volume, including cubic meter [m^3], cubic kilometer [km^3], cubic centimeter [cm^3], cubic millimeter [mm^3], etc. Also, explore many other unit converters.">
+      <meta name="keywords" content="Volume Converter, Volume Conversion, Convert Volume, Online Volume Converter, Convert liters to gallons, Liter to Gallon (US) Conversion, Liter to Gallon (US, Convert ml to cups, Milliliter to Cup (US) Conversion, Milliliter to Cup (US), Convert tablespoons to cups, Tablespoon (US) to Cup (US) Conversion, Tablespoon (US) to Cup (US), Convert ml to l, Milliliter to Liter Conversion, Milliliter to Liter, Convert teaspoon to ml, Teaspoon (US) to Milliliter Conversion, Teaspoon (US) to Milliliter, Convert liters to quarts, Liter to Quart (US) Conversion, Liter to Quart (US), Convert cups to liters, Cup (US) to Liter Conversion, Cup (US) to Liter, Convert pint to ml, Pint (US) to Milliliter Conversion, Pint (US) to Milliliter, Convert cc to ml, Cubic Centimeter to Milliliter Conversion, Cubic Centimeter to Milliliter, Convert cc to oz, Cubic Centimeter to Fluid Ounce (US) Conversion, Cubic Centimeter to Fluid Ounce (US), Convert cubic feet to gallon, Cubic Foot to Gallon (US) Conversion, Cubic Foot to Gallon (US), Convert cubic feet to cubic yards, Cubic Foot to Cubic Yard Conversion, Cubic Foot to Cubic Yard, Convert cubic feet to cubic yards, Cubic Foot to Cubic Yard Conversion, Cubic Foot to Cubic Yard. Convert cubic inches to liters, Cubic Inch to Liter Conversion, Cubic Inch to Liter, Convert cups to quart, Cup (US) to Quart (US) Conversion, Cup (US) to Quart (US), Convert cups to gallon, Cup (US) to Gallon (US) Conversion, Cup (US) to Gallon (US), Convert pint to cups, Pint (US) to Cup (US) Conversion, Pint (US) to Cup (US), Convert quart to gallon, Quart (US) to Gallon (US) Conversion, Quart (US) to Gallon (US), Convert gallon to ml, Gallon (US) to Milliliter Conversion, Gallon (US) to Milliliter, Convert liter to ounces, Liter to Fluid Ounce (US) Conversion, Liter to Fluid Ounce (US), Convert pints to liters, Pint (US) to Liter Conversion, Pint (US) to Liter, Convert pints to gallon, Pint (US) to Gallon (US) Conversion, Pint (US) to Gallon (US)">
+      <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="alertify/css/alertify.css">
+</head>
+<body>
+      <header>
+            <a href="index.html"> <h1 id="title"><span id="converters">Free</span>Unit<span id="converters">Converters</span>.com</h1></a>
+</header>
+
+<h3>Unit converter express version</h3>
+
+<div class="value">
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+            <a href="area.html"><li>Area</li></a>
+            <a href="volume.html"><li>Volume</li></a>
+            <a href="mass.html"><li>Mass</li></a>
+            <a href="time.html"><li>Time</li></a>
+            <a href="temperature.html"><li>Temperature</li></a>
+            <a href="bits and bytes.html"><li>Bits & Byets</li></a>
+            <a href="density.html"><li>Density</li></a>
+            <a href="energy.html"><li>Energy</li></a>
+            <a href="electric current.html"><li>Electric current</li></a>
+            <a href="force.html"><li>Force</li></a>
+            <a href="power.html"><li >Power</li></a>
+            <a href="pressure.html"><li>Pressure</li></a>
+            <a href="speed.html"><li>Speed</li></a>
+		
+
+	</ul>
+</div>
+
+
+
+<div class="inputs">
+	<h2 class="length">Volume</h2>
+<label  for="input">
+	<b>from:</b>
+	<input type="number" placeholder="input" name="input" id="input" oninput="convert(12)"  onkeypress='validate(event)' >
+	
+	</label>
+	<label for="iteams">
+		<select name="none" id="inputType" onchange="convert(12)">
+	<option> acre foot</option>
+      <option> barrels (oil)</option>
+      <option> bushels (UK)</option>
+      <option> bushels (US)</option>
+     <option>  centiliters</option>
+      <option> cubic centimeters</option>
+      <option> cubic decimeters</option>
+      <option> cubic decameters</option>
+     <option>  cubic feet</option>
+      <option> cubic inches</option>
+      <option> cubic kilometers</option>
+      <option> cubic meters</option>
+      <option> cubic mile</option>
+      <option> cubic millimeters</option>
+      <option> cubic yards</option>
+      <option> cups</option>
+      <option> deciliters</option>
+      <option> dram (imperial)</option>
+      <option> dram (US)</option>
+      <option> fluid ounces (imperial)</option>
+      <option> fluid ounces (US)</option>
+      <option> gallons (imperial)</option>
+      <option> gallons, dry (US)</option>
+      <option> gallons, liquid </option>
+      <option> gill (imperial)</option>
+      <option> gill (US)</option>
+      <option> kiloliter</option>
+      <option> liters</option>
+      <option> liters (1901-1964)</option>
+      <option> milliliters</option>
+      <option> microliters</option>
+      <option> nanoliters</option>
+      <option> picoliters</option>
+      <option> pints (imperial)</option>
+      <option> pints, dry (US)</option>
+      <option> pints, liquid (US)</option>
+      <option> quarts (imperial)</option>
+      <option> quarts, dry (US)</option>
+      <option> quarts, liquid (US)</option>
+      <option> table spoons </option>
+      <option> tea spoons</option>                 
+    
+
+
+		</select>
+	</label>
+	<br>
+<label for="result">
+	<b class="to">to: </b>
+
+	<input type="number" placeholder="result" name="result" id="result" >
+	
+
+</label>	
+<label for="iteams">
+		<select name="none" id="resultType" onchange="convert(12)">
+		<option> acre foot</option>
+      <option> barrels (oil)</option>
+      <option> bushels (UK)</option>
+      <option> bushels (US)</option>
+     <option>  centiliters</option>
+      <option> cubic centimeters</option>
+      <option> cubic decimeters</option>
+      <option> cubic decameters</option>
+     <option>  cubic feet</option>
+      <option> cubic inches</option>
+      <option> cubic kilometers</option>
+      <option> cubic meters</option>
+      <option> cubic mile</option>
+      <option> cubic millimeters</option>
+      <option> cubic yards</option>
+      <option> cups</option>
+      <option> deciliters</option>
+      <option> dram (imperial)</option>
+      <option> dram (US)</option>
+      <option> fluid ounces (imperial)</option>
+      <option> fluid ounces (US)</option>
+      <option> gallons (imperial)</option>
+      <option> gallons, dry (US)</option>
+      <option> gallons, liquid </option>
+      <option> gill (imperial)</option>
+      <option> gill (US)</option>
+      <option> kiloliter</option>
+      <option> liters</option>
+      <option> liters (1901-1964)</option>
+      <option> milliliters</option>
+      <option> microliters</option>
+      <option> nanoliters</option>
+      <option> picoliters</option>
+      <option> pints (imperial)</option>
+      <option> pints, dry (US)</option>
+      <option> pints, liquid (US)</option>
+      <option> quarts (imperial)</option>
+      <option> quarts, dry (US)</option>
+      <option> quarts, liquid (US)</option>
+      <option> table spoons </option>
+      <option> tea spoons</option>                  
+    
+
+
+		</select>
+	</label>
+</div>
+
+
+
+
+
+<div class= "col-3 right">
+
+
+      <div class="main-convertors">
+      <h4 class="h1">Main converters</h4>
+      <ul>
+            <a href="converter.html"><li>Length</li></a>
+            <a href="temperature.html"><li>Temperature</li></a>
+            <a href="area.html"><li>Area</li></a>
+            <a href="volume.html"><li>Volume</li></a>
+            <a href="mass.html"><li>Mass</li></a>
+            <a href="time.html"><li>Time</li></a>
+
+
+      </ul>
+</div>
+</div>
+
+
+
+<div class="col-9">
+<div class="aside1">
+	<h4>Volume</h4>
+	<p><b>Volume</b> is the quantity of three-dimensional space enclosed by a closed surface, for example, the space that a substance (solid, liquid, gas, or plasma) or shape occupies or contains.Volume is often quantified numerically using the SI derived unit, the cubic metre. The volume of a container is generally understood to be the capacity of the container; i. e., the amount of fluid (gas or liquid) that the container could hold, rather than the amount of space the container itself displaces. Three dimensional mathematical shapes are also assigned volumes. Volumes of some simple shapes, such as regular, straight-edged, and circular shapes can be easily calculated using arithmetic formulas. Volumes of complicated shapes can be calculated with integral calculus if a formula exists for the shape's boundary. One-dimensional figures (such as lines) and two-dimensional shapes (such as squares) are assigned zero volume in the three-dimensional space
+    Any unit of length gives a corresponding unit of volume: the volume of a cube whose sides have the given length. For example, a cubic centimetre (cm3) is the volume of a cube whose sides are one centimetre (1 cm) in length.In the International System of Units (SI), the standard unit of volume is the cubic metre (m3). The metric system also includes the litre (L) as a unit of volume, where one litre is the volume of a 10-centimetre cube.<a href="https://en.m.wikipedia.org/wiki/Volume">Wikipedia</a></p>
+
+</div>
+</div>
+
+
+
+
+
+
+	
+
+<div class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<small>&copy; FreeUnitConverters.com 2020</small>
+</footer>
+
+
+
+<script src="alertify/alertify.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

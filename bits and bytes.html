@@ -1,0 +1,165 @@
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, 
+	initial-scale= 1.0">
+	<meta name="description" content="Free online data storage converter - converts between 4 units of data storage, including bit ,  byte , character, etc. Also, explore many other unit converters or learn more about data storage unit conversions.">
+	<meta name="keywords" content="Data Storage Converter, Data Storage Conversion, Convert Data Storage, Online Data Storage Converter, Convert MB to GB, Megabyte to Gigabyte Conversion, Megabyte to Gigabyte, Convert KB to MB, Kilobyte to Megabyte Conversion, Kilobyte to Megabyte, Convert KB to GB, Kilobyte to Gigabyte Conversion, Kilobyte to Gigabyte, Convert GB to MB, Gigabyte to Megabyte Conversion, Gigabyte to Megabyte, Convert MB to KB, Megabyte to Kilobyte Conversion, Megabyte to Kilobyte, Convert GB to KB, Gigabyte to Kilobyte Conversion, Gigabyte to Kilobyte">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="alertify/css/alertify.css">
+</head>
+<body>
+ <header>
+            <a href="index.html"> <h1 id="title"><span id="converters">Free</span>Unit<span id="converters">Converters</span>.com</h1></a>
+</header>
+
+<h3>Unit converter express version</h3>
+
+<div class="value">
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="bits and bytes.html"><li>Bits & Byets</li></a>
+		<a href="density.html"><li>Density</li></a>
+		<a href="energy.html"><li>Energy</li></a>
+		<a href="electric current.html"><li>Electric current</li></a>
+		<a href="force.html"><li>Force</li></a>
+		<a href="power.html"><li >Power</li></a>
+		<a href="pressure.html"><li>Pressure</li></a>
+		<a href="speed.html"><li>Speed</li></a>
+		
+
+	</ul>
+</div>
+
+
+
+<div class="inputs">
+	<h2 class="length">Bits and Bytes</h2>
+<label  for="input">
+	<b>from:</b>
+	<input type="number" placeholder="input" name="input" id="input" oninput="convert(1)"  onkeypress='validate(event)' >
+	
+	</label>
+	<label for="iteams">
+		<select name="none" id="inputType" onchange="convert(1)">
+	  <option>bits</option>
+      <option>bytes</option>
+      <option>kilobits</option>
+      <option>kilobytes</option>
+      <option>megabits</option>
+      <option>megabytes</option>
+      <option>gigabits</option>
+      <option>gigabytes</option>
+      <option>terabits</option>
+      <option>terabytes</option>
+      <option>petabits</option>
+      <option>petabytes</option>
+      <option>exabits</option>
+      <option>exabytes</option>
+                    
+    
+
+
+		</select>
+	</label>
+	<br>
+<label for="result">
+	<b class="to">to: </b>
+
+	<input type="number" placeholder="result" name="result" id="result" >
+	
+
+</label>	
+<label for="iteams">
+		<select name="none" id="resultType" onchange="convert(1)">
+	  <option>bits</option>
+      <option>bytes</option>
+      <option>kilobits</option>
+      <option>kilobytes</option>
+      <option>megabits</option>
+      <option>megabytes</option>
+      <option>gigabits</option>
+      <option>gigabytes</option>
+      <option>terabits</option>
+      <option>terabytes</option>
+      <option>petabits</option>
+      <option>petabytes</option>
+      <option>exabits</option>
+      <option>exabytes</option>       
+    
+
+
+		</select>
+	</label>
+</div>
+
+
+
+
+
+<div class= "col-3 right">
+
+
+	<div class="main-convertors">
+	<h4 class="h1">Main converters</h4>
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+
+
+	</ul>
+</div>
+</div>
+
+	<div class="col-9">
+	<div class="aside1">
+	<h4>Bits and Bytes</h4>
+	<p><b>The byte</b> is a unit of digital information that most commonly consists of eight bits. Historically, the byte was the number of bits used to encode a single character of text in a computer and for this reason it is the smallest addressable unit of memory in many computer architectures.<a href="https://en.m.wikipedia.org/wiki/Byte">Wikipedia</a><br>The bit is a basic unit of information in information theory, computing, and digital communications. The name is a portmanteau of binary digit. <a href="https://en.m.wikipedia.org/wiki/Bit">Wikipedia</a></p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+	
+
+<div class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<small>&copy; FreeUnitConverters.com 2020</small>
+</footer>
+
+
+
+<script src="alertify/alertify.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

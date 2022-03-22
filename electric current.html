@@ -1,0 +1,183 @@
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, 
+	initial-scale= 1.0">
+	<meta name="description" content="Free online current converter - converts between  units of current, including ampere [A], kiloampere [kA], milliampere [mA], biot [Bi], etc. Also, explore many other unit converters.">
+	<meta name="keywords" content="Current Converter, Current Conversion, Convert Current, Online Current Converter, Convert milliamps to amps, Milliampere to Ampere Conversion, Milliampere to Ampere, Convert amps to milliamps, Ampere to Milliampere Conversion, Ampere to Milliampere, Ampere, kiloampere, milliampere, biot, abampere, centiampere, statampere, coulomb/second, EMU of current, ESU of current, ranklin/second, gaussian electric current, gigaampere, gilbert, megaampere, microampere, milliamp, nanoampere, picoampere, siemens volt, teraampre, volt/ohm, watt/volt, weber/henry">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="alertify/css/alertify.css">
+</head>
+<body>
+ <header>
+            <a href="index.html"> <h1 id="title"><span id="converters">Free</span>Unit<span id="converters">Converters</span>.com</h1></a>
+</header>
+
+<h3>Unit converter express version</h3>
+
+<div class="value">
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="bits and bytes.html"><li>Bits & Byets</li></a>
+		<a href="density.html"><li>Density</li></a>
+		<a href="energy.html"><li>Energy</li></a>
+		<a href="electric current.html"><li>Electric current</li></a>
+		<a href="force.html"><li>Force</li></a>
+		<a href="power.html"><li >Power</li></a>
+		<a href="pressure.html"><li>Pressure</li></a>
+		<a href="speed.html"><li>Speed</li></a></li></a>
+		
+		
+
+	</ul>
+</div>
+
+
+
+<div class="inputs">
+	<h2 class="length">Electric Current</h2>
+<label  for="input">
+	<b>from:</b>
+	<input type="number" placeholder="input" name="input" id="input" oninput="convert(3)"  onkeypress='validate(event)' >
+	
+	</label>
+	<label for="iteams">
+		<select name="none" id="inputType" onchange="convert(3)">
+	  <option>ampere</option>
+      <option>kiloampere</option>
+      <option>milliampere</option>
+      <option>biot</option>
+      <option>abampere</option>
+      <option>centiampere</option>
+      <option>statampere</option>
+      <option>coulomb/second</option>
+      <option>EMU of current</option>
+      <option>ESU of current</option>
+      <option>ranklin/second</option>
+      <option>gaussian electric current</option>
+      <option>gigaampere</option>
+      <option>gilbert</option>
+      <option>megaampere</option>
+      <option>microampere</option>    
+      <option>milliamp</option>
+      <option>nanoampere</option>
+      <option>picoampere</option>
+      <option>siemens volt</option>
+      <option>teraampere</option>
+      <option>volt/ohm</option>
+      <option>watt/volt</option>
+      <option>weber/henry</option>             
+    
+
+
+		</select>
+	</label>
+	<br>
+<label for="result">
+	<b class="to">to: </b>
+
+	<input type="number" placeholder="result" name="result" id="result" >
+	
+
+</label>	
+<label for="iteams">
+		<select name="none" id="resultType" onchange="convert(3)">
+	    <option>ampere</option>
+      <option>kiloampere</option>
+      <option>milliampere</option>
+      <option>biot</option>
+      <option>abampere</option>
+      <option>centiampere</option>
+      <option>statampere</option>
+      <option>coulomb/second</option>
+      <option>EMU of current</option>
+      <option>ESU of current</option>
+      <option>ranklin/second</option>
+      <option>gaussian electric current</option>
+      <option>gigaampere</option>
+      <option>gilbert</option>
+      <option>megaampere</option>
+      <option>microampere</option>    
+      <option>milliamp</option>
+      <option>nanoampere</option>
+      <option>picoampere</option>
+      <option>siemens volt</option>
+      <option>teraampere</option>
+      <option>volt/ohm</option>
+      <option>watt/volt</option>
+      <option>weber/henry</option> 
+    
+
+
+		</select>
+	</label>
+</div>
+
+
+
+
+
+<div class= "col-3 right">
+
+
+	<div class="main-convertors">
+	<h4 class="h1">Main converters</h4>
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+
+
+	</ul>
+</div>
+</div>
+
+<div class="col-9">
+<div class="aside1">
+	<h4>Electric Current</h4>
+	<p><b>An electric current </b> is the rate of flow of electric charge past a point or region. An electric current is said to exist when there is a net flow of electric charge through a region. Electric charge is carried by charged particles, so an electric current is a flow of charged particles. The moving particles are called charge carriers, and in different conductors may be different types of particle. In electric circuits the charge carriers are often electrons moving through a wire. In an electrolyte the charge carriers are ions, and in an ionized gas (plasma) are ions and electrons. The conventional symbol for current is I, which originates from the French phrase intensité du courant, (current intensity).Current intensity is often referred to simply as current. The I symbol was used by André-Marie Ampère, after whom the unit of electric current is named, in formulating Ampère's force law (1820). The notation travelled from France to Great Britain, where it became standard, although at least one journal did not change from using C to I until 1896. <a href="https://en.m.wikipedia.org/wiki/Electric_current">Wikipedia</a></p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<small>&copy; FreeUnitConverters.com 2020</small>
+</footer>
+
+
+
+<script src="alertify/alertify.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

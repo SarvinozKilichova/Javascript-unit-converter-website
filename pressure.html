@@ -1,0 +1,206 @@
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, 
+	initial-scale= 1.0">
+	<meta name="description" content="Free online pressure converter - converts between units of pressure, including pascal [Pa], kilopascal [kPa], bar, psi [psi], etc. Also, explore many other unit converters.">
+	<meta name="keywords" content="Pressure Converter, Pressure Conversion, Convert Pressure, Online Pressure Converter, Convert bar to psi, Bar to Psi Conversion, Bar to Psi, Convert kpa to psi, Kilopascal to Psi Conversion, Kilopascal to Psi, Convert psi to bar, Psi to Bar Conversion, Psi to Bar, Convert psi to kpa, Psi to Kilopascal Conversion, Psi to Kilopascal">
+      <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="alertify/css/alertify.css">
+</head>
+<body>
+ <header>
+            <a href="index.html"> <h1 id="title"><span id="converters">Free</span>Unit<span id="converters">Converters</span>.com</h1></a>
+</header>
+
+<h3>Unit converter express version</h3>
+
+<div class="value">
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="bits and bytes.html"><li>Bits & Byets</li></a>
+		<a href="density.html"><li>Density</li></a>
+		<a href="energy.html"><li>Energy</li></a>
+		<a href="electric current.html"><li>Electric current</li></a>
+		<a href="force.html"><li>Force</li></a>
+		<a href="power.html"><li >Power</li></a>
+		<a href="pressure.html"><li>Pressure</li></a>
+		<a href="speed.html"><li>Speed</li></a>
+		
+
+	</ul>
+</div>
+
+
+
+<div class="inputs">
+	<h2 class="length">Pressure</h2>
+<label  for="input">
+	<b>from:</b>
+	<input type="number" placeholder="input" name="input" id="input" oninput="convert(9)"  onkeypress='validate(event)' >
+	
+	</label>
+	<label for="iteams">
+		<select name="none" id="inputType" onchange="convert(9)">
+	  <option>pascals</option>
+      <option>kilopascals [kPa]</option>
+      <option>bars</option>
+      <option>atmospheres</option>    
+      <option>megapascals [MPa]</option>
+      <option>hectopascals</option>
+      <option>newtons/sq.centimeter</option>
+      <option>newtons/sq.meter</option>
+      <option>newtons/sq.millimeter</option>
+      <option>kilonewtons/sq.meter</option>
+      <option>kilonewtons/sq.millimeter</option>     
+      <option>kips/sq.inch</option>
+      <option>meganewtons/sq.meter</option>
+      <option>meganewtons/sq.millimeter</option>  
+      <option>meters of water</option>
+      <option>millibars</option>
+      <option>kilogram-forces/sq.centimeter</option>
+      <option>kilogram-forces/sq.meter</option>
+      <option>tonnes-force/sq.cm</option>
+      <option>tonnes-force/sq.meter</option>
+      <option>torr (mm Hg 0В°C)</option>
+      <option>poundals/sq.foot</option>
+      <option>tons (UK)-force/sq.foot</option>
+      <option>tons (UK)-force/sq.inch</option>
+      <option>tons (US)-force/sq.foot</option>
+      <option>tons (US)-force/sq.inch</option>
+      <option>centimeters mercury</option>
+      <option>centimeters water</option>
+      <option>feet of water</option>
+      <option>inches of water</option>
+      <option>inches of mercury</option>
+      <option>millimeters of mercury</option>
+      <option>millimeters of water</option>    
+      <option>pounds-force/sq.foot</option>
+      <option>pounds-force/sq.inch</option>      
+    
+
+
+		</select>
+	</label>
+	<br>
+<label for="result">
+	<b class="to">to: </b>
+
+	<input type="number" placeholder="result" name="result" id="result" >
+	
+
+</label>	
+<label for="iteams">
+		<select name="none" id="resultType" onchange="convert(9)">
+	  <option>pascals</option>
+      <option>kilopascals [kPa]</option>
+      <option>bars</option>
+      <option>atmospheres</option>    
+      <option>megapascals [MPa]</option>
+      <option>hectopascals</option>
+      <option>newtons/sq.centimeter</option>
+      <option>newtons/sq.meter</option>
+      <option>newtons/sq.millimeter</option>
+      <option>kilonewtons/sq.meter</option>
+      <option>kilonewtons/sq.millimeter</option>     
+      <option>kips/sq.inch</option>
+      <option>meganewtons/sq.meter</option>
+      <option>meganewtons/sq.millimeter</option>  
+      <option>meters of water</option>
+      <option>millibars</option>
+      <option>kilogram-forces/sq.centimeter</option>
+      <option>kilogram-forces/sq.meter</option>
+      <option>tonnes-force/sq.cm</option>
+      <option>tonnes-force/sq.meter</option>
+      <option>torr (mm Hg 0В°C)</option>
+      <option>poundals/sq.foot</option>
+      <option>tons (UK)-force/sq.foot</option>
+      <option>tons (UK)-force/sq.inch</option>
+      <option>tons (US)-force/sq.foot</option>
+      <option>tons (US)-force/sq.inch</option>
+      <option>centimeters mercury</option>
+      <option>centimeters water</option>
+      <option>feet of water</option>
+      <option>inches of water</option>
+      <option>inches of mercury</option>
+      <option>millimeters of mercury</option>
+      <option>millimeters of water</option>    
+      <option>pounds-force/sq.foot</option>
+      <option>pounds-force/sq.inch</option> 
+    
+
+
+		</select>
+	</label>
+</div>
+
+
+
+
+
+<div class= "col-3 right">
+
+
+      <div class="main-convertors">
+      <h4 class="h1">Main converters</h4>
+      <ul>
+            <a href="converter.html"><li>Length</li></a>
+            <a href="temperature.html"><li>Temperature</li></a>
+            <a href="area.html"><li>Area</li></a>
+            <a href="volume.html"><li>Volume</li></a>
+            <a href="mass.html"><li>Mass</li></a>
+            <a href="time.html"><li>Time</li></a>
+
+
+      </ul>
+</div>
+</div>
+
+<div class="col-9">
+<div class="aside1">
+	<h4>Pressure</h4>
+	<p><b>Pressure</b>  (symbol: p or P) is the force applied perpendicular to the surface of an object per unit area over which that force is distributed. Gauge pressure (also spelled gage pressure)[a] is the pressure relative to the ambient pressure. Various units are used to express pressure. Some of these derive from a unit of force divided by a unit of area; the SI unit of pressure, the pascal (Pa), for example, is one newton per square metre (N/m2); similarly, the pound-force per square inch (psi) is the traditional unit of pressure in the imperial and US customary systems. Pressure may also be expressed in terms of standard atmospheric pressure; the atmosphere (atm) is equal to this pressure, and the torr is defined as  1⁄760 of this. Manometric units such as the centimetre of water, millimetre of mercury, and inch of mercury are used to express pressures in terms of the height of column of a particular fluid in a manometer. <a href="https://en.m.wikipedia.org/wiki/Pressure">Wikipedia</a></p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<small>&copy; FreeUnitConverters.com 2020</small>
+</footer>
+
+
+
+<script src="alertify/alertify.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

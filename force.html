@@ -1,0 +1,160 @@
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+	<meta lang="en">
+	<meta name="viewport" content="width=device-width, 
+	initial-scale= 1.0">
+	<meta name="description" content="Free online force converter - converts between  units of force, including newton [N], kilonewton [kN], gram-force [gf], kilogram-force [kgf], etc. Also, explore many other unit converters.">
+	<meta name="keywords" content="Force Converter, Force Conversion, Convert Force, Online Force Converter, Convert lbs to newtons, Pound-force to Newton Conversion, Pound-force to Newton, Convert kg to newtons, Kilogram-force to Newton Conversion, Kilogram-force to Newton, Convert newtons to lbs, Newton to Pound-force Conversion, Newton to Pound-force, Convert newtons to kg, Newton to Kilogram-force Conversion, Newton to Kilogram-force">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="alertify/css/alertify.css">
+</head>
+<body>
+ <header>
+           <a href="index.html"> <h1 id="title"><span id="converters">Free</span>Unit<span id="converters">Converters</span>.com</h1></a>
+</header>
+
+<h3>Unit converter express version</h3>
+
+<div class="value">
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="bits and bytes.html"><li>Bits & Byets</li></a>
+		<a href="density.html"><li>Density</li></a>
+		<a href="energy.html"><li>Energy</li></a>
+		<a href="electric current.html"><li>Electric current</li></a>
+		<a href="force.html"><li>Force</li></a>
+		<a href="power.html"><li >Power</li></a>
+		<a href="pressure.html"><li>Pressure</li></a>
+		<a href="speed.html"><li>Speed</li></a>
+		
+
+	</ul>
+</div>
+
+
+
+<div class="inputs">
+	<h2 class="length">Force</h2>
+<label  for="input">
+	<b>from:</b>
+	<input type="number" placeholder="input" name="input" id="input" oninput="convert(5)"  onkeypress='validate(event)' >
+	
+	</label>
+	<label for="iteams">
+		<select name="none" id="inputType" onchange="convert(5)">
+	  <option>newtons</option>
+	  <option>meganewtons</option>
+	  <option>dynes</option>
+      <option>kilograms force</option>
+      <option>kilonewtons</option>
+      <option>kips</option>        
+      <option>pounds force</option>
+      <option>poundals</option>
+      <option>sthene</option>
+      <option>tonnes force</option>
+      <option>tons force (UK)</option>
+      <option>tons force (US)</option>
+    
+
+
+		</select>
+	</label>
+	<br>
+<label for="result">
+	<b class="to">to: </b>
+
+	<input type="number" placeholder="result" name="result" id="result" >
+	
+
+</label>	
+<label for="iteams">
+		<select name="none" id="resultType" onchange="convert(5)">
+	  <option>newtons</option>
+	  <option>meganewtons</option>
+	  <option>dynes</option>
+      <option>kilograms force</option>
+      <option>kilonewtons</option>
+      <option>kips</option>        
+      <option>pounds force</option>
+      <option>poundals</option>
+      <option>sthene</option>
+      <option>tonnes force</option>
+      <option>tons force (UK)</option>
+      <option>tons force (US)</option>
+    
+
+
+		</select>
+	</label>
+</div>
+
+
+
+
+
+<div class= "col-3 right">
+
+
+	<div class="main-convertors">
+	<h4 class="h1">Main converters</h4>
+	<ul>
+		<a href="converter.html"><li>Length</li></a>
+		<a href="temperature.html"><li>Temperature</li></a>
+		<a href="area.html"><li>Area</li></a>
+		<a href="volume.html"><li>Volume</li></a>
+		<a href="mass.html"><li>Mass</li></a>
+		<a href="time.html"><li>Time</li></a>
+
+
+	</ul>
+</div>
+</div>
+
+
+<div class="col-9">
+<div class="aside1">
+	<h4>Force</h4>
+	<p>In physics, <b> a force </b> is any interaction that, when unopposed, will change the motion of an object. A force can cause an object with mass to change its velocity (which includes to begin moving from a state of rest), i.e., to accelerate. Force can also be described intuitively as a push or a pull. A force has both magnitude and direction, making it a vector quantity. It is measured in the SI unit of newtons and represented by the symbol F. The original form of Newton's second law states that the net force acting upon an object is equal to the rate at which its momentum changes with time. If the mass of the object is constant, this law implies that the acceleration of an object is directly proportional to the net force acting on the object, is in the direction of the net force, and is inversely proportional to the mass of the object. <a href="https://en.m.wikipedia.org/wiki/Force">Wikipedia</a></p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+	<small>&copy; FreeUnitConverters.com 2020</small>
+</footer>
+
+
+
+<script src="alertify/alertify.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

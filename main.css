@@ -1,0 +1,293 @@
+*{
+box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px}
+
+
+body{
+	margin: 0;
+	background-color: #f2fcf0;
+	margin-bottom: 0;
+}
+
+.clr {
+	clear: both;
+}
+#converters {
+	color: #71f55d; 
+}
+ @media only screen and (max-width: 600px) {
+ 	#title {
+ 		text-align: center;
+ 	}
+ 	input {
+ 		width: 45%;
+ 	}
+
+}
+
+
+header a {
+	text-decoration: none;
+}
+
+h1 {
+
+	margin: 0;
+	padding: 8px;
+	color: #fff;
+	background-color: #40A82D;
+	font-size: 25px;
+}
+
+h2 {
+	margin: 0;
+	text-align: center;
+	color: #222;
+	font-size: 30px;
+}
+h3 {
+	text-align: center;
+	font-size: 20px;
+	color: #338525;
+}
+
+h4 {
+	margin: 15px;
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	color: #338525;
+}
+
+
+
+.value {
+	text-align: center;
+}
+
+.value ul {
+	margin-bottom: 0;
+}
+.value ul a{
+	text-decoration: none;
+}
+
+.value ul a li{
+	list-style: none;
+	display: inline-block;
+	background-color: #40A82D;
+	color: #fff;
+	padding: 6px;
+	margin-top: 2px;
+	 
+}
+
+.value ul a li:hover{
+	
+	border: 1px solid #7c8c79;
+	border-bottom: none;
+	background-color: #b2deab;
+	color: green;
+}
+
+
+
+
+.inputs {
+	padding: 10px;
+	background-color: #b2deab;
+	text-align: center;
+}
+
+
+dl, p{
+	margin: 40px;
+	text-align: justify;
+	line-height: 28px;
+	word-spacing: 7px;
+}
+
+dl a {
+	color: green;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+dl dd {
+	font-size: 17px;
+	
+}
+
+
+a:hover {
+	color: green;
+
+}
+
+input {
+	height: 32px;
+	margin-top: 20px;
+}
+input:hover{
+	border: 1px solid  #b2deab;
+}
+
+select {
+	height: 32px;
+}
+
+
+b {
+	color:  #338233;
+}
+
+
+
+.to {
+	padding-left: 25px;
+}
+.to1 {
+	padding-left: 28px;
+}
+.to2{
+	padding-left: 30px;
+}
+
+
+
+.buttons {
+	margin-top: 5px;
+	margin-left: 70px; 
+}
+
+.main-convertors {
+	display: inline-block;
+	width: 250px;
+}
+
+.main-convertors ul li {
+	display: block;
+	padding: 8px;
+	border-bottom:  1px solid  #338233;
+	text-align: center;
+	background-color:  #40A82D;
+	}
+
+.main-convertors ul{
+	border: 1px solid  #338233;
+	padding-inline-start: 0;
+}
+
+
+
+
+.main-convertors a {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.main-convertors li:hover {
+	background-color: #b2deab;
+	
+}
+
+
+.main-convertors a:hover{
+	color: green;
+}
+
+
+
+
+.main-convertors h4 {
+	text-align: center;
+	font-size: 18px;
+
+}
+
+
+
+
+
+
+.buttons {
+	margin-right: 5px;
+
+}
+#convert, #clear {
+	height: 25px;
+	font-size: 14px;
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	border: 2px solid green;
+
+}
+
+#convert:hover, #clear:hover{
+	border: 1px solid #7c8c79;
+	background-color: #40A82D;
+	color: white;
+
+}
+.footer {
+	padding-top: 20px;
+	height: 40px;
+	background-color: #40A82D;
+	margin-bottom: 0;
+	color: white;
+	font-weight: 900;
+}
+
+.footer small {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+
+.col-3 {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
